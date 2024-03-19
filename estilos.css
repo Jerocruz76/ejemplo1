@@ -1,0 +1,75 @@
+header{
+    color: rgb(67, 110, 93);
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;
+}
+
+nav{
+    width: 20%;
+    float: left;
+}
+
+nav a{
+    background-color: darkgreen;
+    border-radius: 10px 0 10px;
+    color: azure;
+    margin: 10px;
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    background-color: yellow;
+    color: black;
+}
+
+section{
+    float: right;
+    width: 75%;
+    color: rgb(238, 238, 238);
+    border-radius: 5px solid black;
+    box-shadow: 40px 0 40px rgba(30,32,28,.4);
+    margin-bottom: 15px;
+    padding: 15px;
+}
+
+aside{
+    float: right;
+    width: 30%;
+    padding: 5px;
+    margin: 5px;
+    font-style: italic;
+    color: cadetblue;
+    box-shadow: inset 5px 0 5px cyan;
+}
+
+aside:hover{
+    box-shadow: inset 10px 0 10px black;
+    color: aliceblue;
+    transition: all .2s ease;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+.sección1{
+    background-image: linear-gradient(to left,yellow,green,black);
+}
+
+.sección2{
+    background-image: linear-gradient(to right, darkred, crimson, rgb(71, 17, 71));
+}
+
+.sección3{
+    background-image: linear-gradient(to left, rgb(93, 17, 93), rgb(183, 93, 44), rgb(164, 197, 34), rgb(113, 55, 55), rgb(87, 13, 13));
+}
